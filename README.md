@@ -4,6 +4,119 @@ A portable AI skill for making account-introduction motion graphics with code, b
 
 把“我是谁、发什么、为什么值得关注”做成有辨识度的短片。适用于 Codex、Claude Code 和能够读取文件、执行本地命令的其他编程 AI。
 
+## 看看实际效果
+
+同一个真实账号，六个迭代版本。由这些制作实践提炼出本 Skill，展示从暖色图文到三维强冲击，再到中文配音卡点的变化。
+
+**点击封面观看完整视频**，也可以在下方展开内嵌播放器。全部为 **1080×1920 · 30fps · 带声音**。
+
+<table>
+<tr>
+<td align="center" width="33%">
+<strong>最新 · 强冲击＋中文配音</strong><br>
+<a href="https://github.com/user-attachments/assets/aeb238fb-a78c-425a-adf4-af01a4d6209b"><img src="https://github.com/user-attachments/assets/92922547-c1f5-4b79-b5a9-3611b314562f" alt="最新 · 强冲击＋中文配音视频封面，点击播放" width="200"></a><br>
+<strong>20 秒 · 180 BPM</strong><br>
+<sub>三维动作镜头、11 句中文配音、音乐自动压低</sub><br>
+<a href="https://github.com/user-attachments/assets/aeb238fb-a78c-425a-adf4-af01a4d6209b">▶ 播放完整版</a>
+</td>
+<td align="center" width="33%">
+<strong>01 · 暖色手记</strong><br>
+<a href="https://github.com/user-attachments/assets/7156d965-e238-4b40-afff-b8502bc45d74"><img src="https://github.com/user-attachments/assets/7b69508c-9f6d-4110-8463-04deb1f76cb9" alt="01 · 暖色手记视频封面，点击播放" width="200"></a><br>
+<strong>24 秒</strong><br>
+<sub>纸张质感、照片卡、手绘线条，真诚的自我介绍</sub><br>
+<a href="https://github.com/user-attachments/assets/7156d965-e238-4b40-afff-b8502bc45d74">▶ 播放完整版</a>
+</td>
+<td align="center" width="33%">
+<strong>02 · 黑金动效</strong><br>
+<a href="https://github.com/user-attachments/assets/31b78c15-cdc2-4248-9d1e-8a28bf944584"><img src="https://github.com/user-attachments/assets/f69c51df-234d-4451-897a-32df2ccf4373" alt="02 · 黑金动效视频封面，点击播放" width="200"></a><br>
+<strong>24 秒 · 120 BPM</strong><br>
+<sub>金属星体、头像透视、强明暗对比</sub><br>
+<a href="https://github.com/user-attachments/assets/31b78c15-cdc2-4248-9d1e-8a28bf944584">▶ 播放完整版</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<strong>03 · 快节奏卡点</strong><br>
+<a href="https://github.com/user-attachments/assets/69f86d7f-65b7-42ec-babe-3832ee462e77"><img src="https://github.com/user-attachments/assets/058f4f2a-8e16-4cb2-9a4e-02c690ecf5fc" alt="03 · 快节奏卡点视频封面，点击播放" width="200"></a><br>
+<strong>24 秒 · 150 BPM</strong><br>
+<sub>头像切片、拼贴海报、大字逐拍撞入</sub><br>
+<a href="https://github.com/user-attachments/assets/69f86d7f-65b7-42ec-babe-3832ee462e77">▶ 播放完整版</a>
+</td>
+<td align="center" width="33%">
+<strong>04 · 三维微缩叙事</strong><br>
+<a href="https://github.com/user-attachments/assets/172da176-acd7-4312-8ac1-35614afe35e5"><img src="https://github.com/user-attachments/assets/04161c7b-7325-4bfc-8402-0d08c9bc9344" alt="04 · 三维微缩叙事视频封面，点击播放" width="200"></a><br>
+<strong>28 秒</strong><br>
+<sub>微缩工作台、三维道具、双星陪伴与镜头绕行</sub><br>
+<a href="https://github.com/user-attachments/assets/172da176-acd7-4312-8ac1-35614afe35e5">▶ 播放完整版</a>
+</td>
+<td align="center" width="33%">
+<strong>05 · 强冲击无口播</strong><br>
+<a href="https://github.com/user-attachments/assets/e0b34367-756a-42a6-b91e-152ef21acbb3"><img src="https://github.com/user-attachments/assets/92922547-c1f5-4b79-b5a9-3611b314562f" alt="05 · 强冲击无口播视频封面，点击播放" width="200"></a><br>
+<strong>20 秒 · 180 BPM</strong><br>
+<sub>前三秒超近景→穿入→爆开，鼓点驱动切镜</sub><br>
+<a href="https://github.com/user-attachments/assets/e0b34367-756a-42a6-b91e-152ef21acbb3">▶ 播放完整版</a>
+</td>
+</tr>
+</table>
+
+### 在本页播放
+
+<details open>
+<summary><strong>最新 · 强冲击＋中文配音</strong> · 20 秒 · 180 BPM</summary>
+
+三维动作镜头、11 句中文配音、音乐自动压低。
+
+https://github.com/user-attachments/assets/aeb238fb-a78c-425a-adf4-af01a4d6209b
+
+</details>
+
+<details>
+<summary><strong>01 · 暖色手记</strong> · 24 秒</summary>
+
+纸张质感、照片卡、手绘线条，真诚的自我介绍。
+
+https://github.com/user-attachments/assets/7156d965-e238-4b40-afff-b8502bc45d74
+
+</details>
+
+<details>
+<summary><strong>02 · 黑金动效</strong> · 24 秒 · 120 BPM</summary>
+
+金属星体、头像透视、强明暗对比。
+
+https://github.com/user-attachments/assets/31b78c15-cdc2-4248-9d1e-8a28bf944584
+
+</details>
+
+<details>
+<summary><strong>03 · 快节奏卡点</strong> · 24 秒 · 150 BPM</summary>
+
+头像切片、拼贴海报、大字逐拍撞入。
+
+https://github.com/user-attachments/assets/69f86d7f-65b7-42ec-babe-3832ee462e77
+
+</details>
+
+<details>
+<summary><strong>04 · 三维微缩叙事</strong> · 28 秒</summary>
+
+微缩工作台、三维道具、双星陪伴与镜头绕行。
+
+https://github.com/user-attachments/assets/172da176-acd7-4312-8ac1-35614afe35e5
+
+</details>
+
+<details>
+<summary><strong>05 · 强冲击无口播</strong> · 20 秒 · 180 BPM</summary>
+
+前三秒超近景→穿入→爆开，鼓点驱动切镜。
+
+https://github.com/user-attachments/assets/e0b34367-756a-42a6-b91e-152ef21acbb3
+
+</details>
+
+示例账号：**安逸爸爸学AI / @zhishiai6**。复用时换成你自己的账号资料、头像和内容方向。
+
 ## 能做什么
 
 - **五种视觉方向**：暖色手记、黑金预告、海报卡点、三维微缩叙事、强冲击动作。
@@ -57,7 +170,7 @@ git clone https://github.com/heshuhuan6/social-motion-video.git ~/.claude/skills
 | FFmpeg / ffprobe（PATH 中可执行） | 解码、混音、编码、响度、封面 |
 | Remotion / React / Three.js 等 | 在自己的视频项目安装需要的包 |
 
-字体、头像、音乐及 TTS 服务由使用者选择。网页会员、API 与免费额度分别核对；本仓库不包含密钥、登录态、原账号素材或成片。
+字体、头像、音乐及 TTS 服务由使用者选择。网页会员、API 与免费额度分别核对；仓库不含密钥和登录态；上方视频与封面由 GitHub 附件托管，克隆技能时无需下载这些示例媒体。
 
 ## 工具用法
 
