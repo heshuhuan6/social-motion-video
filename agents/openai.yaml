@@ -1,4 +1,4 @@
 interface:
   display_name: "社交账号动态图形短片"
-  short_description: "用代码制作账号介绍短片，支持风格迭代、三维镜头、卡点配音和成片验收"
-  default_prompt: "使用 $social-motion-video 为我的账号制作一条有辨识度的动态图形介绍短片。"
+  short_description: "接收截图、链接、分享文案或账号资料，制作微信个人介绍与社交品牌视频"
+  default_prompt: "使用 $social-motion-video，根据我提供的截图、链接或文字资料制作账号介绍视频；先整理已有信息，按我的要求逐步引导或直接完成。"

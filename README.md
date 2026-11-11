@@ -1,20 +1,58 @@
 # Social Motion Video · 社交账号动态图形短片
 
-A portable AI skill for making account-introduction motion graphics with code, beat-synced editing, Chinese voiceover, and local media checks.
+A portable AI skill that turns profile screenshots, links, share text, account IDs, or written bios into personal and brand introduction videos. Supports guided previews, code-based motion graphics, optional voiceover, and local media checks.
 
 把“我是谁、发什么、为什么值得关注”做成有辨识度的短片。适用于 Codex、Claude Code 和能够读取文件、执行本地命令的其他编程 AI。
 
+## 最新示例：抖音账号介绍
+
+<a name="demo-douyin"></a>
+
+**从一张主页截图，到23秒完整介绍片。** 蓝橙视觉、开头三秒卡点、AI实践与OpenClaw内容方向、清晰账号名片。采用“定位 → 文案分镜 → 动态预览 → 完整制作”的逐步流程。
+
+**点击下方播放器直接观看，打开声音体验节奏。** 1080×1920 · 30fps · 原创配乐 · 无口播。
+
+https://github.com/user-attachments/assets/e9921aba-476b-497d-baf9-2f4443cef873
+
+<details>
+<summary>查看这条视频的封面</summary>
+
+<img src="https://github.com/user-attachments/assets/db7d027b-d277-40cf-b8b6-c0268f546447" alt="抖音账号介绍视频封面：一起动手，把AI用起来" width="240">
+
+</details>
+
+## 给什么资料都可以开始
+
+**不用填写统一表格。把手头已有的资料交给 AI，它负责提取和整理。**
+
+| 你提供什么 | AI 如何开始 |
+|---|---|
+| 微信、抖音或其他平台的主页截图 | 提取昵称、签名/简介，过滤界面按钮与提醒 |
+| 主页链接或整段分享文字 | 提取真实链接，读取可见主页并核对账号 |
+| 平台＋ID/昵称 | 查找目标；有同名时先核对 |
+| 只有ID或名字 | 平台不明确时先补问平台 |
+| 自己写的简介、品牌资料、头像或Logo | 直接整理成资料卡；按个人/内容/品牌用途设计 |
+| 多张截图＋链接＋文字补充 | 按账号归并，保留来源，处理旧名与新信息的冲突 |
+
+截图通常足以启动；头像原图、粉丝数和成绩是可选材料。没有头像可做名字版式，没有ID可做昵称名片。网页受限时可以改用已有截图或文字，不必反复登录。读取能力取决于所用 AI 的视觉、浏览器和文件工具。
+
+**两种工作方式：**
+- 想参与创作：说“一步一步引导我”。资料与定位 → 文案分镜 → 三秒动态预览和关键画面 → 完整成片。
+- 想直接拿结果：说“直接做完整视频”。信息够用就连续完成，关键缺项再问。
+
+微信个人介绍围绕人物态度与签名；抖音等内容账号围绕内容方向与关注理由。同一个人的多个账号分别处理头像、昵称、ID和输出。共享方法不绑定某个账号、配色或模板。
+
 ## 看看实际效果
 
-同一个真实账号，六个迭代版本。由这些制作实践提炼出本 Skill，展示从暖色图文到三维强冲击，再到中文配音卡点的变化。
+下面保留此前同一个真实账号的六个迭代版本，展示从暖色图文到三维强冲击，再到中文配音卡点的变化；上方新增抖音账号的截图制作案例。
 
 **点击封面跳到本页对应播放器**，打开声音观看完整效果。全部为 **1080×1920 · 30fps · 带声音**。
 
 <table>
 <tr>
 <td align="center" width="33%">
-<strong>最新 · 强冲击＋中文配音</strong><br>
-<a href="#demo-impact-voice"><img src="https://github.com/user-attachments/assets/92922547-c1f5-4b79-b5a9-3611b314562f" alt="最新 · 强冲击＋中文配音视频封面，点击播放" width="200"></a><br>
+<strong>配音示例 · 强冲击＋中文配音</strong><br>
+<a href="#demo-impact-voice"><img src="https://github.com/user-attachments/assets/92922547-c1f5-4b79-b5a9-3611b314562f" alt="配音示例 · 强冲击＋中文配音视频封面，点击播放" width="200"></a><br>
 <strong>20 秒 · 180 BPM</strong><br>
 <sub>三维动作镜头、11 句中文配音、音乐自动压低</sub><br>
 <a href="#demo-impact-voice">▶ 播放完整版</a>
@@ -64,7 +102,7 @@ A portable AI skill for making account-introduction motion graphics with code, b
 <a name="demo-impact-voice"></a>
 
 <details open>
-<summary><strong>最新 · 强冲击＋中文配音</strong> · 20 秒 · 180 BPM</summary>
+<summary><strong>配音示例 · 强冲击＋中文配音</strong> · 20 秒 · 180 BPM</summary>
 
 三维动作镜头、11 句中文配音、音乐自动压低。
 
@@ -141,6 +179,8 @@ https://github.com/user-attachments/assets/e0b34367-756a-42a6-b91e-152ef21acbb3
 
 ## 安装
 
+拿到分享 ZIP 时，解压整个 `social-motion-video` 文件夹到对应技能目录；保留相对目录结构。下面的克隆命令适用于 GitHub 已发布的版本。
+
 ### Codex
 
 ```bash
@@ -162,6 +202,15 @@ git clone https://github.com/heshuhuan6/social-motion-video.git ~/.claude/skills
 下载仓库，让 AI 先读取 [SKILL.md](SKILL.md)，再按需读取其中的参考资料。无需专有连接器；需要编辑文件、执行命令，浏览器与 TTS 账户按具体任务接入。
 
 ## 一句话开始
+
+任选一种方式，把资料接在后面或作为附件：
+
+> 使用 social-motion-video。这是我的微信截图，请一步一步引导我，做一条个人介绍视频。
+
+> 使用 social-motion-video。这是复制的抖音分享文字，请提取账号资料并给我文案、分镜和三秒预览：……
+
+> 使用 social-motion-video。我没有主页，下面是我的名字、简介和想分享的内容，请直接制作一条20秒竖屏介绍片：……
+
 
 > 使用 social-motion-video，为我的账号做一条 20 秒竖屏介绍片。主页是……，头像在 assets/avatar.jpg。只使用真实信息，免费方案优先，前三秒有冲击；末屏保留名字、账号和定位。输出视频、封面、源码和说明。
 
@@ -219,6 +268,9 @@ python3 scripts/check-video.py /path/to/intro.mp4 --width 1080 --height 1920 --f
 | 文件 | 内容 |
 |---|---|
 | [SKILL.md](SKILL.md) | AI 执行入口 |
+| [资料入口与核对](references/profile-intake.md) | 截图、链接、分享文字、ID、文本、混合材料与缺项处理 |
+| [逐步制作与平台流程](references/guided-production.md) | 个人/内容/品牌叙事、预览、确认、完整制作 |
+| [资料卡空结构](assets/profile-intake.example.json) | AI整理资料的结构，使用者无需填写 |
 | [导演与迭代](references/direction.md) | 风格选择、前三秒、反馈修改规则 |
 | [代码与渲染](references/implementation.md) | 帧驱动、选型、排版、渲染 |
 | [配音与混音](references/audio.md) | 服务选择、切句、同步与听审 |
@@ -233,7 +285,9 @@ python3 -m unittest discover -s tests -v
 
 测试使用临时目录与程序生成的素材，不需要账户或付费 API。覆盖节拍时间、非法输入、覆盖保护、空白帧识别和短片混音；完整测试需 Node.js、FFmpeg、ffprobe。
 
-发布前还在 20 秒、1080×1920、30fps 的实际工程中验证过 11 句配音：全部落在对应镜头内，画面流 hash 一致，最终约 -14.12 LUFS；600 帧完整解码检查通过。
+流程还经过微信个人介绍20秒/600帧、抖音内容介绍23秒/690帧的完整制作验证：包含资料提取、逐步选方向、文案分镜、三秒预览、强度调整和完整成片；头像和账号资料不随 Skill 打包。
+
+此前还在20秒、1080×1920、30fps的实际工程中验证过11句配音：全部落在对应镜头内，画面流 hash 一致，最终约 -14.12 LUFS；600 帧完整解码检查通过。
 
 ## License
 

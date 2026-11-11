@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "mode": "auto",
+  "platform": null,
+  "pageType": null,
+  "videoPurpose": null,
+  "sources": [],
+  "observed": {
+    "displayName": {
+      "raw": null,
+      "sourceId": null
+    },
+    "accountId": {
+      "raw": null,
+      "sourceId": null
+    },
+    "signature": {
+      "raw": null,
+      "sourceId": null
+    },
+    "bio": {
+      "raw": null,
+      "sourceId": null
+    },
+    "metrics": [],
+    "relatedAccounts": [],
+    "visibleContent": []
+  },
+  "userClarifications": [],
+  "creativeProposals": {
+    "positioning": null,
+    "keywords": [],
+    "script": [],
+    "visualDirection": null
+  },
+  "assetCandidates": [],
+  "excludedUi": [],
+  "unknowns": [],
+  "presentation": {
+    "showMetrics": false,
+    "showContact": false
+  },
+  "nextStep": "read_available_materials",
+  "projectKey": null,
+  "inputResolution": {
+    "status": "not_started",
+    "targetAccount": null,
+    "matchBasis": []
+  },
+  "conflicts": [],
+  "confirmedDirection": {},
+  "workflow": {
+    "stage": "intake",
+    "latestQuestion": null,
+    "latestOptions": [],
+    "decisions": [],
+    "approvedStages": []
+  }
+}
